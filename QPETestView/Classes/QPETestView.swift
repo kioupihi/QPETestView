@@ -8,7 +8,7 @@
 import UIKit
 //import ARKit
 
-class QPETestView: UIView {
+public class QPETestView: UIView {
     var label = UILabel()
 
     override public func layoutSubviews() {
