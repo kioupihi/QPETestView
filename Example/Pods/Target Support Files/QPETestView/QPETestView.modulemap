@@ -1,0 +1,6 @@
+framework module QPETestView {
+  umbrella header "QPETestView-umbrella.h"
+
+  export *
+  module * { export * }
+}

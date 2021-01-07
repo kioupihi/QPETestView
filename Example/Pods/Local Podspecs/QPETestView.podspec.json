@@ -1,0 +1,22 @@
+{
+  "name": "QPETestView",
+  "version": "0.1.0",
+  "summary": "A short description of QPETestView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kioupihi/QPETestView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kioupihi": "quentin.perrier@myfit-solutions.com"
+  },
+  "source": {
+    "git": "https://github.com/kioupihi/QPETestView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "QPETestView/Classes/**/*"
+}
