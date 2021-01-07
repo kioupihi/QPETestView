@@ -1,0 +1,6 @@
+use_frameworks!
+target 'QPETestView_Tests' do
+  pod 'QPETestView', :path => '../'
+  
+  
+end
