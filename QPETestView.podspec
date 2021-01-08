@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QPETestView'
-  s.version          = '1.2.0'
+  s.version          = '1.3.0'
   s.summary          = 'Test view'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,10 @@ TODO: Add long description of the pod here.
   s.swift_versions = '5.0'
 
   s.source_files = 'QPETestView/Classes/**/*'
+  s.resources = 'QPETestView/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'QPETestView' => ['QPETestView/Assets/*.png']
+  #   'QPETestView' => ['QPETestView/Classes/*.xib']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
