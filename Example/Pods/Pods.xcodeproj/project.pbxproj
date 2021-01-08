@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E82CF3DE2999E0893BE6713ED67C542 /* Pods-QPETestView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2554938BCA8C248FACE3F6059A3D3D1 /* Pods-QPETestView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BAA39856529661A36376722EC7466D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		66E2565425A73FEB00E99B28 /* QPETestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E2565325A73FEB00E99B28 /* QPETestView.swift */; };
+		66E2565425A73FEB00E99B28 /* QPETestView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E2565325A73FEB00E99B28 /* QPETestView3.swift */; };
 		66E2585225A8937400E99B28 /* viewExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E2584E25A8937300E99B28 /* viewExtensionTest.swift */; };
 		66E2585325A8937400E99B28 /* GenericCalibrationScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66E2584F25A8937300E99B28 /* GenericCalibrationScreenView.xib */; };
 		66E2585425A8937400E99B28 /* GenericCalibrationScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E2585025A8937300E99B28 /* GenericCalibrationScreenView.swift */; };
@@ -41,7 +41,7 @@
 		55FD8BB67A7B4072B332222D847FD2FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5D2A3769FD213D2AC883948E925415C7 /* QPETestView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QPETestView-umbrella.h"; sourceTree = "<group>"; };
 		643C509D9B449753453045E2A1493026 /* QPETestView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QPETestView-Info.plist"; sourceTree = "<group>"; };
-		66E2565325A73FEB00E99B28 /* QPETestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QPETestView.swift; path = QPETestView/Classes/QPETestView.swift; sourceTree = "<group>"; };
+		66E2565325A73FEB00E99B28 /* QPETestView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QPETestView3.swift; path = QPETestView/Classes/QPETestView3.swift; sourceTree = "<group>"; };
 		66E2584E25A8937300E99B28 /* viewExtensionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = viewExtensionTest.swift; path = QPETestView/Classes/viewExtensionTest.swift; sourceTree = "<group>"; };
 		66E2584F25A8937300E99B28 /* GenericCalibrationScreenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GenericCalibrationScreenView.xib; path = QPETestView/Classes/GenericCalibrationScreenView.xib; sourceTree = "<group>"; };
 		66E2585025A8937300E99B28 /* GenericCalibrationScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenericCalibrationScreenView.swift; path = QPETestView/Classes/GenericCalibrationScreenView.swift; sourceTree = "<group>"; };
@@ -165,7 +165,7 @@
 				66E2584E25A8937300E99B28 /* viewExtensionTest.swift */,
 				30B6F89BB7BF3A6BEE1F8BB19192E82E /* Pod */,
 				98181F0229728AD9044E9200230128D9 /* Support Files */,
-				66E2565325A73FEB00E99B28 /* QPETestView.swift */,
+				66E2565325A73FEB00E99B28 /* QPETestView3.swift */,
 			);
 			name = QPETestView;
 			path = ../..;
@@ -300,7 +300,7 @@
 				66E2585425A8937400E99B28 /* GenericCalibrationScreenView.swift in Sources */,
 				A6FDB1B32F09F6A1F9487A1ED1F8C449 /* QPETestView-dummy.m in Sources */,
 				66E2585225A8937400E99B28 /* viewExtensionTest.swift in Sources */,
-				66E2565425A73FEB00E99B28 /* QPETestView.swift in Sources */,
+				66E2565425A73FEB00E99B28 /* QPETestView3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

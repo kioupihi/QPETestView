@@ -9,7 +9,7 @@ import UIKit
 import ARKit
 import SceneKit
 
-public class QPETestView: UIView, ARSCNViewDelegate {
+public class QPETestView3: UIView, ARSCNViewDelegate {
     let sceneView = ARSCNView()
     let labelView = UILabel()
     @objc let buttonView = UIButton()
