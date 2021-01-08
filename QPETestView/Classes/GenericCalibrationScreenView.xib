@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GenericCalibrationScreenView" customModule="PodArKit" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="A1P-hq-gn7" id="aDV-wn-YRq"/>
+                <outlet property="informationLabel" destination="SFE-tU-AF3" id="J8c-gq-1xl"/>
+                <outlet property="titleLabel" destination="Jfg-a9-oFK" id="ekK-T2-Y4F"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="A1P-hq-gn7" userLabel="ContentView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="674"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="avB-76-UCH" customClass="FrameZoneView" customModule="PodArKit" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="674"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mzG-Ed-BS2" userLabel="ViewHeader">
+                    <rect key="frame" x="0.0" y="44" width="414" height="42"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Generic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="Jfg-a9-oFK">
+                            <rect key="frame" x="37" y="3" width="99" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="TOT-Pk-XaE"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="OKf-1v-YmX"/>
+                        <constraint firstItem="Jfg-a9-oFK" firstAttribute="leading" secondItem="mzG-Ed-BS2" secondAttribute="leading" constant="37" id="d4B-fU-i6e"/>
+                        <constraint firstItem="Jfg-a9-oFK" firstAttribute="centerY" secondItem="mzG-Ed-BS2" secondAttribute="centerY" id="frD-zF-h2z"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ClM-a9-hJS" customClass="BubbleHelpView" customModule="PodArKit" customModuleProvider="target">
+                    <rect key="frame" x="110" y="94" width="280" height="58"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="16" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SFE-tU-AF3">
+                            <rect key="frame" x="20" y="9" width="240" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="Fi6-fp-P2n"/>
+                            </constraints>
+                            <string key="text">Move your phone
+forward and backward</string>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="18v-5p-Mse"/>
+                        <constraint firstItem="SFE-tU-AF3" firstAttribute="centerY" secondItem="ClM-a9-hJS" secondAttribute="centerY" id="3yA-7g-MHJ"/>
+                        <constraint firstAttribute="width" constant="280" id="9de-mo-llI"/>
+                        <constraint firstItem="SFE-tU-AF3" firstAttribute="leading" secondItem="ClM-a9-hJS" secondAttribute="leading" constant="20" id="Bvj-5V-ehB"/>
+                        <constraint firstAttribute="trailing" secondItem="SFE-tU-AF3" secondAttribute="trailing" constant="20" id="OPz-Qn-fxo"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="maskedCornerBottomLeft" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fdC-c1-y7g"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="avB-76-UCH" secondAttribute="bottom" id="1Cp-J7-CBA"/>
+                <constraint firstItem="mzG-Ed-BS2" firstAttribute="top" secondItem="fdC-c1-y7g" secondAttribute="top" id="HkC-o1-vlo"/>
+                <constraint firstItem="avB-76-UCH" firstAttribute="top" secondItem="A1P-hq-gn7" secondAttribute="top" id="MVy-eN-z1w"/>
+                <constraint firstAttribute="trailing" secondItem="avB-76-UCH" secondAttribute="trailing" id="Mc7-sF-lRk"/>
+                <constraint firstAttribute="trailing" secondItem="mzG-Ed-BS2" secondAttribute="trailing" id="MzU-Jk-20E"/>
+                <constraint firstItem="avB-76-UCH" firstAttribute="leading" secondItem="A1P-hq-gn7" secondAttribute="leading" id="PHc-MG-peM"/>
+                <constraint firstItem="ClM-a9-hJS" firstAttribute="top" secondItem="mzG-Ed-BS2" secondAttribute="bottom" constant="8" id="TwS-0d-CqW"/>
+                <constraint firstAttribute="trailing" secondItem="ClM-a9-hJS" secondAttribute="trailing" constant="24" id="eB1-ku-DNH"/>
+                <constraint firstItem="mzG-Ed-BS2" firstAttribute="leading" secondItem="A1P-hq-gn7" secondAttribute="leading" id="yTU-mK-hdq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="47.826086956521742" y="129.24107142857142"/>
+        </view>
+    </objects>
+</document>
