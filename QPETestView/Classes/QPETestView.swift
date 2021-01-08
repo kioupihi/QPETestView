@@ -23,7 +23,7 @@ public class QPETestView: UIView, ARSCNViewDelegate {
         self.initView()
     }
     
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         self.moveBounds()
     }
     
